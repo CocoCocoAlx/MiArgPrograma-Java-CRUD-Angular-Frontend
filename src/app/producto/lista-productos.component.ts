@@ -1,11 +1,11 @@
-import { Component, NgModule, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Producto } from '../modelos/producto';
 import { ProductoService } from '../servicio/producto.service';
 
 @Component({
   selector: 'app-lista-productos',
   templateUrl: './lista-productos.component.html',
-  styleUrls: ['./lista-productos.component.css']
+  styleUrls: ['./lista-productos.component.css'],
 })
 
 export class ListaProductosComponent implements OnInit {
